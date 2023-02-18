@@ -18,6 +18,6 @@ class Car:
         self.__engine = engine
 
     def specification(self):
-        print(self.__body.shape)
-        print(self.__engine.horsepower)
+        print("body: %s" % self.__body.shape)
+        print("engine horsepower: %d" % self.__engine.horsepower)
         print("tire size: %d\'" % self.__wheels[0].size)

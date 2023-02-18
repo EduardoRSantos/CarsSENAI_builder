@@ -11,8 +11,8 @@ class PorscheBuilder(Builder):
         self.body = Body()
 
         self.wheel.size = 20
-        self.engine.horsepower = None
-        self.body.shape = None
+        self.engine.horsepower = 650
+        self.body.shape = "SUPERCAR"
 
     def get_wheel(self) -> Wheel:
         return self.wheel
